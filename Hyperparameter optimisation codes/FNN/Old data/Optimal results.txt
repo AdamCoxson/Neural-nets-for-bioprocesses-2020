@@ -1,0 +1,165 @@
+FNN Bayesian GP Optimisation execution time:  13:57:04.906886 (hrs:mins:secs)
+Best MSE: 0.0260116
+Best Parameters HN: (4, 8), Epochs: 125, Batch Size: 4, Learn rate: 0.0256
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to BayesianGP_FNN_250_1.csv successfully.
+Average: 0.065202, range (0.026 to 0.94), lowest Sum 0.344154
+
+FNN Bayesian GP Optimisation execution time:  4:53:07.400034 (hrs:mins:secs)
+Best MSE: 0.0270511
+Best Parameters HN: (4, 4), Epochs: 301, Batch Size: 23, Learn rate: 0.0983
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to BayesianGP_FNN_250_2.csv successfully.
+Average: 0.055681, range (0.027 to 0.28), lowest Sum 0.302392
+
+FNN Bayesian GP Optimisation execution time:  9:37:27.441246 (hrs:mins:secs)
+Best MSE: 0.0304869
+Best Parameters HN: (4, 8), Epochs: 126, Batch Size: 119, Learn rate: 0.0501
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to BayesianGP_FNN_250_3.csv successfully.
+Average: 0.065704, range (0.030 to 0.35), lowest Sum 0.338846
+
+FNN Bayesian GP Optimisation execution time:  5:53:21.648578 (hrs:mins:secs)
+Best MSE: 0.0284586
+Best Parameters HN: (4, 2), Epochs: 40, Batch Size: 97, Learn rate: 0.0243
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to BayesianGP_FNN_250_4.csv successfully.
+Average: 0.056788, range (0.028 to 0.23), lowest Sum 0.334474
+
+total = 2060 mins, 34.3 hours. Average = 8.6 hours
+
+From averaging final results of all 4 datasets
+Average 0.060844, range (0.028 to 0.45), lowest sum 0.3299665
+
+Best MSE: 0.0260116
+Best Parameters HN: (4, 8), Epochs: 125, Batch Size: 4, Learn rate: 0.0256 - Matches understanding of domain space
+Best MSE: 0.0270511
+Best Parameters HN: (4, 4), Epochs: 301, Batch Size: 23, Learn rate: 0.0983 - Half matches (lr anomalous)
+Best MSE: 0.0304869
+Best Parameters HN: (4, 8), Epochs: 126, Batch Size: 119, Learn rate: 0.0501 - Matches
+Best MSE: 0.0284586
+Best Parameters HN: (4, 2), Epochs: 40, Batch Size: 97, Learn rate: 0.0243 - Matches
+----------------------------------------------------------------------------
+
+FNN Random Forest execution time:  5:52:26.891771 (hrs:mins:secs)
+Best MSE: 0.0283429
+Best Parameters HN: (6, 8), Epochs: 52, Batch Size: 256, Learn rate: 0.0515
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to random_forest_250_B1.csv successfully.
+Average: 0.078243, range (0.028 to 0.54), lowest Sum 0.343498
+
+FNN Random Forest execution time:  5:21:08.361805 (hrs:mins:secs)
+Best MSE: 0.0326519
+Best Parameters HN: (4, 10), Epochs: 231, Batch Size: 215, Learn rate: 0.0591
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to random_forest_250_B2.csv successfully.
+Average: 0.083472, range (0.033 to 0.59), lowest sum 0.349678
+
+FNN Random Forest execution time:  5:42:23.732895 (hrs:mins:secs)
+Best MSE: 0.0297498
+Best Parameters HN: (4, 4), Epochs: 320, Batch Size: 17, Learn rate: 0.0459
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to random_forest_250_B3.csv successfully.
+Average 0.095279, range (0.030 to 4.5), lowest sum 0.340706. (This max range taken to be anomalous)
+
+FNN Random Forest execution time:  7:00:47.173356 (hrs:mins:secs)
+Best MSE: 0.0278389
+Best Parameters HN: (4, 8), Epochs: 398, Batch Size: 36, Learn rate: 0.0197
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to random_forest_250_B4.csv successfully.
+Average: 0.06972, range (0.028 to 0.38), lowest sum 0.321056
+
+total = 1145 minutes, 24.1 hours. Average = 6.0 hours.
+
+From averaging final results of all 4 datasets
+Average 0.0816785, range (0.030 to 0.50), lowest sum 0.3387345
+
+Best MSE: 0.0283429
+Best Parameters HN: (6, 8), Epochs: 52, Batch Size: 256, Learn rate: 0.0515 - not matched to domain space understanding
+Best MSE: 0.0326519
+Best Parameters HN: (4, 10), Epochs: 231, Batch Size: 215, Learn rate: 0.0591 - not matched
+Best MSE: 0.0297498
+Best Parameters HN: (4, 4), Epochs: 320, Batch Size: 17, Learn rate: 0.0459 - matched
+Best MSE: 0.0278389
+Best Parameters HN: (4, 8), Epochs: 398, Batch Size: 36, Learn rate: 0.0197 - half matched
+-------------------------------------------------------------------------------
+
+Parallel processing activated, print functions are surpressed.
+Random search algorithm execution time:  2:58:02.776301 (hrs:mins:secs)
+No. of parameter configurations:  4000
+1) Parameters HN: (4, 4), Epochs: 224, Batch Size: 260, Learn rate: 0.0006
+MSE:  0.02261 
+
+2) Parameters HN: (4, 4), Epochs: 336, Batch Size: 166, Learn rate: 0.0003
+MSE:  0.02264 
+
+3) Parameters HN: (6, 2), Epochs: 41, Batch Size: 184, Learn rate: 0.0050
+MSE:  0.02299 
+
+4) Parameters HN: (2, 4), Epochs: 67, Batch Size: 166, Learn rate: 0.0878
+MSE:  0.02388 
+
+5) Parameters HN: (4, 2), Epochs: 392, Batch Size: 60, Learn rate: 0.0001
+MSE:  0.02394 
+
+6) Parameters HN: (4, 2), Epochs: 348, Batch Size: 180, Learn rate: 0.0003
+MSE:  0.02445 
+
+7) Parameters HN: (4, 4), Epochs: 159, Batch Size: 177, Learn rate: 0.0006
+MSE:  0.02457 
+
+8) Parameters HN: (4, 2), Epochs: 266, Batch Size: 292, Learn rate: 0.0009
+MSE:  0.02476 
+
+Written to Random_FNN_4000_1.csv successfully.
+optimal configurations:
+1) Lowest ever                       HN: (4, 4), Epochs: 224, Batch Size: 260, Learn rate: 0.0006. MSE:  0.02261
+2) Chosen from lowest 10.            HN: (4, 2), Epochs: 392, Batch Size: 60, Learn rate: 0.0001.  MSE:  0.02384
+3) Chosen lowest 10 (MSE > 0.03).    HN: (4, 2), Epochs: 398, Batch Size: 70, Learn rate: 0.02918.  MSE:  0.02384
+
+Lowest 10 sum:              0.242236
+Lowest 10 sum (MSE > 0.03): 0.303637
+MSE Range: (0.022615 to 1.76)
+MSE Average: 0.055634 
+
+---------------------------------------------------------------------------------
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  16:33:21.254228 (hrs:mins:secs). Cores:  32
+Effective time = 31786 minutes, 529.8 hours
+No. of parameter configurations:  10000
+1) Parameters HN: (6, 2), Epochs: 300, Batch Size: 25, Learn rate: 0.1000
+MSE:  0.01901 
+
+2) Parameters HN: (4, 2), Epochs: 10, Batch Size: 250, Learn rate: 0.0200
+MSE:  0.02178 
+
+3) Parameters HN: (6, 2), Epochs: 150, Batch Size: 150, Learn rate: 0.0100
+MSE:  0.02304 
+
+4) Parameters HN: (4, 2), Epochs: 400, Batch Size: 10, Learn rate: 0.0001
+MSE:  0.02335 
+
+5) Parameters HN: (4, 4), Epochs: 100, Batch Size: 200, Learn rate: 0.0020
+MSE:  0.02393 
+
+6) Parameters HN: (4, 2), Epochs: 250, Batch Size: 80, Learn rate: 0.0004
+MSE:  0.02434 
+
+7) Parameters HN: (4, 4), Epochs: 250, Batch Size: 50, Learn rate: 0.0002
+MSE:  0.02472 
+
+8) Parameters HN: (6, 2), Epochs: 200, Batch Size: 250, Learn rate: 0.0010
+MSE:  0.02478 
+
+Written to Grid_FNN_10000_1.csv successfully.
+
+optimal configurations:
+1) Lowest ever                       HN: (6, 2), Epochs: 300, Batch Size: 25, Learn rate: 0.1000.   MSE: 0.01901
+2) Chosen from lowest 10.            HN: (6, 2), Epochs: 300, Batch Size: 25, Learn rate: 0.1000.   MSE: 0.01901 same as above
+3) Chosen lowest 10 (MSE > 0.03).    HN: (6, 4), Epochs: 150, Batch Size: 80, Learn rate: 0.001.  MSE: 0.02384
+
+Lowest 10 sum:              0.235497
+Lowest 10 sum (MSE > 0.03): 0.300843
+MSE Range: (0.0190 to 11.2)
+MSE Average: 0.058557
+

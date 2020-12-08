@@ -1,0 +1,70 @@
+To recreate all of these plots you can import R/FNN_plot_data.spydata into the variable explorer on a spyder console.
+Then C&P in this code and run
+
+
+import numpy as np                   # Packages -----
+import pandas as  pd
+import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
+import copy
+import csv
+import multiprocessing
+from cpuinfo import get_cpu_info
+from datetime import datetime
+from joblib import Parallel, delayed
+from neural_networks import fnn_net, rnn_net              # Modules -----
+from train_v2 import train
+from FNN_test_module import FNN_test
+from RNN_test_module import RNN_test
+from data_preprocessing import data_preprocess
+
+
+# For the FNN -----------------------------
+timestamps = [0,12,24,36,48,60,72,84,96,108,120,132] # Hard coded time steps for the FNN data
+seq_length = 12 # Number of data points passed into network. 13th is trimmed off due to some expts only having 11 data points
+training_data, testing_data, raw_testing_data, scaler_test = data_preprocess('fnn') 
+training_inputs = training_data[:, 0:4]
+training_labels = training_data[:, 4:]
+test_inputs = testing_data[:, 0:4]
+test_labels = testing_data[:, 4:]
+# ------------------------------------------
+
+# For the RNN ------------------------------
+timestamps = [0,12,24,36,48,60,72,84,96,108,120] # Hard coded time steps for the RNN data
+seq_length = 11 # Number of data points passed into network. 12th and 13th trimmed off due to some expts only having 11 data points
+training_data, testing_data, raw_testing_data, scaler_test = data_preprocess('rnn')
+training_inputs = training_data[:, 0:4]
+training_labels = training_data[:, 4:]
+test_inputs = testing_data[:, 0:4]
+test_labels = testing_data[:, 4:]
+training_inputs = np.split(training_inputs, 820)
+training_labels = np.split(training_labels, 820)
+test_inputs = np.split(test_inputs, 5)
+test_labels = np.split(test_labels, 5)
+# ---------------------------------------------
+
+
+make_plot = 1 # Prediction plots for the 5 testing set errors (correspond to closest_error value)
+if make_plot == 1:
+    testing_expt = [3,7,9,18,22]
+    sl = seq_length
+    for i in range(0, len(hyperparam_list)):
+        for j in range(0,5):
+            biomass_experimental_data = raw_testing_data['BC'][(j*sl):sl+(j*sl)]
+            predictions = biomass_predictions[i][(j*sl):sl+(j*sl)]
+            cfg = hyperparam_list[i]
+            fig, ax = plt.subplots()
+            fig.canvas.set_window_title('Error_%.4f_HN_(%d_%d)_Epochs_%d_Batch_Size_%d_Learn_rate_%.4f'%(avg_mse[i], # FNN
+                                                                                    cfg[0],cfg[1],cfg[2],cfg[3],cfg[4]))
+            #fig.canvas.set_window_title('Error_%.4f_HN_%d_Epochs_%d_Batch_Size_%d_Learn_rate_%.4f'%(avg_mse[i], # RNN
+            #                                                                        cfg[0],cfg[1],cfg[2],cfg[3],cfg[4]))
+            line1, = ax.plot(timestamps, biomass_experimental_data, 'rx',label='experiment')
+            line2, = ax.plot(timestamps, predictions, 'b+',label='prediction')
+            line3 = Line2D([0], [0], color='white', linewidth=0.1, linestyle='None')
+            #ax.text(0.5, 0.95, ('Average error: '+str(0.05)), horizontalalignment='left', verticalalignment='center', transform=ax.transAxes)
+            ax.legend((line1,line2,line3),('Experiment no. '+str(testing_expt[j]),'Prediction','Average error: '+str(round(testing_set_data[i][j],3))))
+            ax.set_ylabel('Biomass concentration (g/L)')
+            ax.set_xlabel('Time (hrs)')
+            plt.minorticks_on()
+            plt.grid(True)
+            plt.show()

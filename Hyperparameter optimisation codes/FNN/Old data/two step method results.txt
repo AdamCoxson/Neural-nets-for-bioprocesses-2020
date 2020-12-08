@@ -1,0 +1,190 @@
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  0:07:36.847051 (hrs:mins:secs). Cores:  16
+No. of parameter configurations:  360
+1) Parameters HN: (4, 12), Epochs: 200, Batch Size: 80, Learn rate: 0.1000
+MSE:  0.02435 
+
+2) Parameters HN: (4, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.1000
+MSE:  0.02768 
+
+3) Parameters HN: (4, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.1000
+MSE:  0.02788 
+
+4) Parameters HN: (8, 2), Epochs: 200, Batch Size: 80, Learn rate: 0.1000
+MSE:  0.02933 
+
+5) Parameters HN: (6, 10), Epochs: 200, Batch Size: 80, Learn rate: 0.1000
+MSE:  0.0298 
+
+6) Parameters HN: (4, 10), Epochs: 200, Batch Size: 80, Learn rate: 0.1000
+MSE:  0.02981 
+
+7) Parameters HN: (4, 8), Epochs: 200, Batch Size: 80, Learn rate: 0.1000
+MSE:  0.03038 
+
+8) Parameters HN: (6, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.1000
+MSE:  0.03097 
+
+Written to Grid_FNN_HNplot_lr0p1.csv successfully.
+
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  0:08:31.762985 (hrs:mins:secs). Cores:  16
+No. of parameter configurations:  360
+1) Parameters HN: (6, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0100
+MSE:  0.02719 
+
+2) Parameters HN: (4, 2), Epochs: 200, Batch Size: 80, Learn rate: 0.0100
+MSE:  0.02815 
+
+3) Parameters HN: (8, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0100
+MSE:  0.02963 
+
+4) Parameters HN: (4, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0100
+MSE:  0.03113 
+
+5) Parameters HN: (4, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0100
+MSE:  0.03192 
+
+6) Parameters HN: (4, 10), Epochs: 200, Batch Size: 80, Learn rate: 0.0100
+MSE:  0.03217 
+
+7) Parameters HN: (4, 10), Epochs: 200, Batch Size: 80, Learn rate: 0.0100
+MSE:  0.03258 
+
+8) Parameters HN: (4, 6), Epochs: 200, Batch Size: 80, Learn rate: 0.0100
+MSE:  0.03313 
+
+Written to Grid_FNN_HNplot_lr0p01.csv successfully.
+
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  0:09:07.794282 (hrs:mins:secs). Cores:  16
+No. of parameter configurations:  360
+1) Parameters HN: (6, 10), Epochs: 200, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.02493 
+
+2) Parameters HN: (4, 10), Epochs: 200, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.02722 
+
+3) Parameters HN: (8, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.03143 
+
+4) Parameters HN: (2, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.03177 
+
+5) Parameters HN: (10, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.03203 
+
+6) Parameters HN: (6, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.03226 
+
+7) Parameters HN: (6, 2), Epochs: 200, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.03278 
+
+8) Parameters HN: (4, 12), Epochs: 200, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.0329 
+
+Written to Grid_FNN_HNplot_lr0p001.csv successfully.
+
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  0:08:59.145939 (hrs:mins:secs). Cores:  16
+No. of parameter configurations:  360
+1) Parameters HN: (12, 10), Epochs: 200, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.03531 
+
+2) Parameters HN: (4, 12), Epochs: 200, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.03575 
+
+3) Parameters HN: (12, 12), Epochs: 200, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.0363 
+
+4) Parameters HN: (10, 10), Epochs: 200, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.03647 
+
+5) Parameters HN: (12, 12), Epochs: 200, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.03668 
+
+6) Parameters HN: (12, 12), Epochs: 200, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.03728 
+
+7) Parameters HN: (8, 6), Epochs: 200, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.03753 
+
+8) Parameters HN: (12, 4), Epochs: 200, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.03757 
+
+Written to Grid_FNN_HNplot_lr0p0001.csv successfully.
+
+For all 4 heatmaps:
+total time = 34.27 minutes, 0.57 hours at 16 cores. or 0.3 hours at 32 cores.
+Effective time = 9.1378 hours
+
+
+--------------------------------------------------------------------------------
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  0:45:45.522753 (hrs:mins:secs). Cores:  32
+effective time = 1464 minutes, 24.4 hours
+No. of parameter configurations:  2601
+1) Parameters HN: (8, 4), Epochs: 50, Batch Size: 80, Learn rate: 0.0012
+MSE:  0.02536 
+
+2) Parameters HN: (8, 4), Epochs: 50, Batch Size: 80, Learn rate: 0.0014
+MSE:  0.02544 
+
+3) Parameters HN: (8, 4), Epochs: 70, Batch Size: 80, Learn rate: 0.0006
+MSE:  0.02595 
+
+4) Parameters HN: (8, 4), Epochs: 50, Batch Size: 80, Learn rate: 0.0016
+MSE:  0.02654 
+
+5) Parameters HN: (8, 4), Epochs: 50, Batch Size: 80, Learn rate: 0.0010
+MSE:  0.02798 
+
+6) Parameters HN: (8, 4), Epochs: 250, Batch Size: 80, Learn rate: 0.0002
+MSE:  0.02802 
+
+7) Parameters HN: (8, 4), Epochs: 70, Batch Size: 80, Learn rate: 0.0007
+MSE:  0.02837 
+
+8) Parameters HN: (8, 4), Epochs: 250, Batch Size: 80, Learn rate: 0.0001
+MSE:  0.02849 
+
+Written to Grid_FNN_51epochs_v_51LR_1.csv successfully.
+
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  1:51:36.637165 (hrs:mins:secs). Cores:  32
+Effective time: 3568 minutes, 59.5 hours
+No. of parameter configurations:  2601
+1) Parameters HN: (8, 4), Epochs: 20, Batch Size: 350, Learn rate: 0.0100
+MSE:  0.02749 
+
+2) Parameters HN: (8, 4), Epochs: 60, Batch Size: 160, Learn rate: 0.0100
+MSE:  0.0281 
+
+3) Parameters HN: (8, 4), Epochs: 20, Batch Size: 370, Learn rate: 0.0100
+MSE:  0.02861 
+
+4) Parameters HN: (8, 4), Epochs: 20, Batch Size: 200, Learn rate: 0.0100
+MSE:  0.02907 
+
+5) Parameters HN: (8, 4), Epochs: 20, Batch Size: 380, Learn rate: 0.0100
+MSE:  0.0298 
+
+6) Parameters HN: (8, 4), Epochs: 30, Batch Size: 370, Learn rate: 0.0100
+MSE:  0.03004 
+
+7) Parameters HN: (8, 4), Epochs: 20, Batch Size: 390, Learn rate: 0.0100
+MSE:  0.03008 
+
+8) Parameters HN: (8, 4), Epochs: 30, Batch Size: 470, Learn rate: 0.0100
+MSE:  0.0302 
+
+Written to Grid_FNN_51epochs_v_51bs_1.csv successfully.
+
+Overall, execution times utilising up to 32 cores
+Stage 1: 20 minutes, 0.3 hours
+Analysis time
+Stage 2: 157 minutes, 2.6 hours.
+Total: 177 minutes, 3 hours.
+
+Utilising only 1 core: 5664 minutes, 94.4 hours
+

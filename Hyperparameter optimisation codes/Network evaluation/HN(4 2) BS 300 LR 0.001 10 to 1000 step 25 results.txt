@@ -1,0 +1,235 @@
+Parameters HN: (4, 2), Epochs: 10, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0441 ± 0.0242), Mean Error: (0.2051 ± 0.0447)
+Training Mean Squared Error: (0.1156 ± 0.1030),)
+Training execution time:  0:00:04.292141 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 25, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0357 ± 0.0146), Mean Error: (0.1867 ± 0.0296)
+Training Mean Squared Error: (0.0853 ± 0.0934),)
+Training execution time:  0:00:04.272255 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 50, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0312 ± 0.0013), Mean Error: (0.1766 ± 0.0038)
+Training Mean Squared Error: (0.0648 ± 0.0339),)
+Training execution time:  0:00:08.087818 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 75, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0294 ± 0.0038), Mean Error: (0.1709 ± 0.0115)
+Training Mean Squared Error: (0.0578 ± 0.0500),)
+Training execution time:  0:00:12.411134 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 100, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0278 ± 0.0050), Mean Error: (0.1659 ± 0.0155)
+Training Mean Squared Error: (0.0506 ± 0.0236),)
+Training execution time:  0:00:16.774669 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 125, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0281 ± 0.0057), Mean Error: (0.1668 ± 0.0176)
+Training Mean Squared Error: (0.0594 ± 0.0346),)
+Training execution time:  0:00:20.958302 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 150, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0285 ± 0.0041), Mean Error: (0.1684 ± 0.0123)
+Training Mean Squared Error: (0.0454 ± 0.0103),)
+Training execution time:  0:00:25.121199 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 175, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0274 ± 0.0048), Mean Error: (0.1649 ± 0.0148)
+Training Mean Squared Error: (0.0411 ± 0.0134),)
+Training execution time:  0:00:27.921559 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 200, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0281 ± 0.0044), Mean Error: (0.1670 ± 0.0131)
+Training Mean Squared Error: (0.0452 ± 0.0165),)
+Training execution time:  0:00:32.028803 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 225, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0294 ± 0.0059), Mean Error: (0.1706 ± 0.0171)
+Training Mean Squared Error: (0.0469 ± 0.0278),)
+Training execution time:  0:00:36.079782 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 250, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0288 ± 0.0055), Mean Error: (0.1691 ± 0.0161)
+Training Mean Squared Error: (0.0422 ± 0.0220),)
+Training execution time:  0:00:40.940873 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 275, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0293 ± 0.0066), Mean Error: (0.1701 ± 0.0193)
+Training Mean Squared Error: (0.0349 ± 0.0067),)
+Training execution time:  0:00:45.718545 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 300, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0290 ± 0.0068), Mean Error: (0.1693 ± 0.0192)
+Training Mean Squared Error: (0.0336 ± 0.0063),)
+Training execution time:  0:00:48.392005 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 325, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0332 ± 0.0058), Mean Error: (0.1814 ± 0.0160)
+Training Mean Squared Error: (0.0320 ± 0.0061),)
+Training execution time:  0:00:51.937063 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 350, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0304 ± 0.0056), Mean Error: (0.1735 ± 0.0167)
+Training Mean Squared Error: (0.0356 ± 0.0078),)
+Training execution time:  0:00:55.601260 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 375, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0348 ± 0.0075), Mean Error: (0.1854 ± 0.0205)
+Training Mean Squared Error: (0.0330 ± 0.0095),)
+Training execution time:  0:00:59.736198 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 400, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0326 ± 0.0068), Mean Error: (0.1796 ± 0.0187)
+Training Mean Squared Error: (0.0307 ± 0.0041),)
+Training execution time:  0:01:03.548002 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 425, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0317 ± 0.0065), Mean Error: (0.1770 ± 0.0185)
+Training Mean Squared Error: (0.0327 ± 0.0077),)
+Training execution time:  0:01:07.270045 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 450, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0328 ± 0.0045), Mean Error: (0.1806 ± 0.0121)
+Training Mean Squared Error: (0.0314 ± 0.0075),)
+Training execution time:  0:01:11.236436 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 475, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0356 ± 0.0083), Mean Error: (0.1875 ± 0.0210)
+Training Mean Squared Error: (0.0293 ± 0.0035),)
+Training execution time:  0:01:15.198835 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 500, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0367 ± 0.0108), Mean Error: (0.1898 ± 0.0264)
+Training Mean Squared Error: (0.0288 ± 0.0037),)
+Training execution time:  0:01:19.255980 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 525, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0335 ± 0.0061), Mean Error: (0.1824 ± 0.0157)
+Training Mean Squared Error: (0.0313 ± 0.0065),)
+Training execution time:  0:01:23.082743 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 550, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0352 ± 0.0066), Mean Error: (0.1870 ± 0.0167)
+Training Mean Squared Error: (0.0296 ± 0.0075),)
+Training execution time:  0:01:27.011235 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 575, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0359 ± 0.0082), Mean Error: (0.1882 ± 0.0219)
+Training Mean Squared Error: (0.0320 ± 0.0094),)
+Training execution time:  0:01:31.017517 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 600, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0373 ± 0.0076), Mean Error: (0.1920 ± 0.0208)
+Training Mean Squared Error: (0.0268 ± 0.0045),)
+Training execution time:  0:01:35.004850 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 625, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0343 ± 0.0055), Mean Error: (0.1844 ± 0.0154)
+Training Mean Squared Error: (0.0277 ± 0.0038),)
+Training execution time:  0:01:38.656084 (hrs:mins:secs)
+C:\ProgramData\Anaconda3\lib\site-packages\joblib\externals\loky\process_executor.py:691: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  "timeout or by a memory leak.", UserWarning
+
+Parameters HN: (4, 2), Epochs: 650, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0360 ± 0.0056), Mean Error: (0.1892 ± 0.0143)
+Training Mean Squared Error: (0.0307 ± 0.0068),)
+Training execution time:  0:01:45.596520 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 675, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0365 ± 0.0101), Mean Error: (0.1893 ± 0.0248)
+Training Mean Squared Error: (0.0273 ± 0.0035),)
+Training execution time:  0:01:50.107450 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 700, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0394 ± 0.0069), Mean Error: (0.1978 ± 0.0175)
+Training Mean Squared Error: (0.0263 ± 0.0040),)
+Training execution time:  0:01:51.206508 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 725, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0348 ± 0.0068), Mean Error: (0.1858 ± 0.0170)
+Training Mean Squared Error: (0.0267 ± 0.0033),)
+Training execution time:  0:01:55.184867 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 750, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0363 ± 0.0061), Mean Error: (0.1899 ± 0.0154)
+Training Mean Squared Error: (0.0276 ± 0.0062),)
+Training execution time:  0:01:59.361695 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 775, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0438 ± 0.0112), Mean Error: (0.2077 ± 0.0257)
+Training Mean Squared Error: (0.0270 ± 0.0048),)
+Training execution time:  0:02:03.172499 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 800, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0370 ± 0.0067), Mean Error: (0.1916 ± 0.0168)
+Training Mean Squared Error: (0.0252 ± 0.0029),)
+Training execution time:  0:02:07.701407 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 825, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0425 ± 0.0131), Mean Error: (0.2038 ± 0.0313)
+Training Mean Squared Error: (0.0253 ± 0.0046),)
+Training execution time:  0:02:11.410474 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 850, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0386 ± 0.0088), Mean Error: (0.1954 ± 0.0213)
+Training Mean Squared Error: (0.0257 ± 0.0030),)
+Training execution time:  0:02:15.281659 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 875, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0384 ± 0.0054), Mean Error: (0.1955 ± 0.0137)
+Training Mean Squared Error: (0.0255 ± 0.0027),)
+Training execution time:  0:02:21.121473 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 900, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0369 ± 0.0071), Mean Error: (0.1913 ± 0.0171)
+Training Mean Squared Error: (0.0260 ± 0.0028),)
+Training execution time:  0:02:25.232465 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 925, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0399 ± 0.0115), Mean Error: (0.1979 ± 0.0278)
+Training Mean Squared Error: (0.0264 ± 0.0040),)
+Training execution time:  0:02:30.525165 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 950, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0372 ± 0.0096), Mean Error: (0.1914 ± 0.0235)
+Training Mean Squared Error: (0.0257 ± 0.0041),)
+Training execution time:  0:02:37.190034 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 975, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0386 ± 0.0075), Mean Error: (0.1955 ± 0.0181)
+Training Mean Squared Error: (0.0243 ± 0.0015),)
+Training execution time:  0:02:41.558873 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 1000, Batch Size: 300, Learn rate: 0.0010
+Mean Squared Error: (0.0360 ± 0.0079), Mean Error: (0.1885 ± 0.0209)
+Training Mean Squared Error: (0.0254 ± 0.0029),)
+Training execution time:  0:02:45.558538 (hrs:mins:secs)
+
+Grid search algorithm execution time:  0:55:02.089275 (hrs:mins:secs)
+No. of parameter configurations:  41 
+
+1) Parameters HN: (4, 2), Epochs: 175, Batch Size: 300, Learn rate: 0.0010
+MSE:  0.02741 
+
+2) Parameters HN: (4, 2), Epochs: 100, Batch Size: 300, Learn rate: 0.0010
+MSE:  0.02776 
+
+3) Parameters HN: (4, 2), Epochs: 200, Batch Size: 300, Learn rate: 0.0010
+MSE:  0.02806 
+
+4) Parameters HN: (4, 2), Epochs: 125, Batch Size: 300, Learn rate: 0.0010
+MSE:  0.02815 
+
+5) Parameters HN: (4, 2), Epochs: 150, Batch Size: 300, Learn rate: 0.0010
+MSE:  0.0285 
+
+6) Parameters HN: (4, 2), Epochs: 250, Batch Size: 300, Learn rate: 0.0010
+MSE:  0.02884 
+
+7) Parameters HN: (4, 2), Epochs: 300, Batch Size: 300, Learn rate: 0.0010
+MSE:  0.02903 
+
+8) Parameters HN: (4, 2), Epochs: 275, Batch Size: 300, Learn rate: 0.0010
+MSE:  0.02931 
+
+Written to Grid_0_to_1000_step25.csv successfully.

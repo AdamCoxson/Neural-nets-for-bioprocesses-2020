@@ -1,0 +1,26 @@
+import numpy as np                   # Packages -----
+import copy
+from rnn import RNN              # Modules -----
+from train import train
+from test_module import test
+from data_preprocessing import data_preprocess
+import torch
+from torch.autograd import Variable
+
+training_data, testing_data = data_preprocess()
+
+training_inputs = training_data[:, 0:4]
+training_labels = training_data[:, 4:]
+test_inputs = testing_data[:, 0:4]
+test_labels = testing_data[:, 4:]
+
+training_inputs = np.split(training_inputs, 820)
+training_labels = np.split(training_labels, 820)
+test_inputs = np.split(test_inputs, 5)
+test_labels = np.split(test_labels, 5)
+
+HL = 1 # one layer RNN
+net = RNN(1, 4, 10, 4, HL)
+init_state = copy.deepcopy(net.state_dict())
+net.load_state_dict(init_state)
+train(net, training_inputs, training_labels, 100, 0.001, 50)

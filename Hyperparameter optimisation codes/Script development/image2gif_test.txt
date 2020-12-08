@@ -1,0 +1,96 @@
+import imageio
+import os
+
+
+'''
+
+Matplotlib plots to GIF file creation, by Tom Savage 
+
+
+Prerequisites:
+
+Import imageio 
+Import os 
+
+
+^^ this is important 
+
+
+Images should be saved within some iterative loop
+Whereby within the loop something about the plot is changed 
+at the end of each iteration save the image as:
+
+plt.savefig(str(i)+'.png')
+
+where i is the iteration index.
+
+For example:
+     
+
+for i in range(100):
+    plt.figure()...
+
+    plt.savefig(str(i)+'.png')
+
+This will save 100 images to the folder where your python code is 
+each image should be named 0.png, 1.png, 2.png etc...
+
+then the following code can be run...
+'''
+'''
+iterations = 100 # this will depend on how many images you have 
+images = [] # creating image array
+
+for filename in range(iterations): # iterating over images
+
+
+    images.append(imageio.imread(str(filename)+'.png')) # adding each image to the array 
+    # note see how this follows the standard naming convention
+
+    os.remove(str(filename)+'.png') # this then deletes the image file from the folder
+    
+imageio.mimsave('NAME_OF_GIF_HERE.gif', images) # this then saves the array of images as a gif
+'''
+
+'''
+I always like going to ezgif.com and tidying the gif up, maybe 
+reversing it and going to the beginning or something, it's really up to you! 
+
+Here's a little example...
+'''
+
+import matplotlib.pyplot as plt   
+import numpy as np 
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib import cm
+from matplotlib.ticker import LinearLocator, FormatStrFormatter
+
+iterations = 100 
+for i in range(iterations):
+
+    fig = plt.figure()
+    ax = fig.gca(projection='3d')
+    X = np.arange(-5, 5, 0.25)
+    Y = np.arange(-5, 5, 0.25)
+    X, Y = np.meshgrid(X, Y)
+    R = (2*i/iterations)*np.sqrt(X**2 + Y**2)
+    Z = np.sin(R)
+    surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm,
+                        linewidth=0, antialiased=False)
+    ax.set_zlim(-1.01, 1.01)
+    ax.zaxis.set_major_locator(LinearLocator(10))
+    ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
+    fig.colorbar(surf, shrink=0.5, aspect=5)
+
+    plt.savefig(str(i)+'.png')
+
+images = [] # creating image array
+
+for filename in range(iterations): # iterating over images
+
+    images.append(imageio.imread(str(filename)+'.png')) # adding each image to the array 
+    # note see how this follows the standard naming convention
+
+    os.remove(str(filename)+'.png') # this then deletes the image file from the folder
+    
+imageio.mimsave('test.gif', images) # this then saves the array of images as a gif

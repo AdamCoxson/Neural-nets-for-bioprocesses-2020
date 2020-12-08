@@ -1,0 +1,123 @@
+Bayesian GP Optimisation execution time:  5:10:14.836751 (hrs:mins:secs)
+Best MSE: 0.0265513
+Best Parameters HN: 2, Epochs: 181, Batch Size: 127, Learn rate: 0.0412
+Written to Bayesian_GP_RNN_250_1.csv successfully.
+
+Bayesian GP Optimisation execution time:  11:36:22.174185 (hrs:mins:secs)
+Best MSE: 0.0256411
+Best Parameters HN: 2, Epochs: 120, Batch Size: 37, Learn rate: 0.0176
+Written to Bayesian_GP_RNN_250_2.csv successfully.
+
+Bayesian GP Optimisation execution time:  5:01:10.057831 (hrs:mins:secs)
+Best MSE: 0.0280923
+Best Parameters HN: 2, Epochs: 237, Batch Size: 139, Learn rate: 0.0377
+Written to Bayesian_GP_RNN_250_3.csv successfully.
+
+Bayesian GP Optimisation execution time:  7:43:33.948684 (hrs:mins:secs)
+Best MSE: 0.0247069
+Best Parameters HN: 7, Epochs: 329, Batch Size: 30, Learn rate: 0.0057
+Written to Bayesian_GP_RNN_250_4.csv successfully.
+
+total 29.5, average 7.4
+
+------------------------------------------------------------------------
+
+Random Forest execution time:  1:12:29.591064 (hrs:mins:secs)
+Best MSE: 0.0247944
+Best Parameters HN: 2, Epochs: 260, Batch Size: 195, Learn rate: 0.0318
+Written to RandF_RNN_250_1.csv successfully.
+
+Random Forest execution time:  7:29:23.058426 (hrs:mins:secs)
+Best MSE: 0.0325094
+Best Parameters HN: 9, Epochs: 381, Batch Size: 135, Learn rate: 0.0003
+Written to RandF_RNN_250_2.csv successfully.
+
+Random Forest execution time:  0:32:31.281950 (hrs:mins:secs)
+Best MSE: 0.0264637
+Best Parameters HN: 2, Epochs: 252, Batch Size: 105, Learn rate: 0.0301
+Written to RandF_RNN_250_3.csv successfully.
+
+Random Forest execution time:  0:27:58.970413 (hrs:mins:secs)
+Best MSE: 0.0316177
+Best Parameters HN: 9, Epochs: 348, Batch Size: 82, Learn rate: 0.0989
+Written to RandF_RNN_250_4.csv successfully.
+
+total: 9.7, average: 2.4 hours
+
+-------------------------------------------------------------------------
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  3:22:14.021763 (hrs:mins:secs). Cores:  32
+Grid search algorithm effective time:  4 days, 11:51:28.696416 (hrs:mins:secs).
+No. of parameter configurations:  10000
+1) Parameters HN: 4,  Epochs: 25,  Batch Size: 200,  Learn rate: 0.1000
+MSE:  0.02127 
+
+2) Parameters HN: 2,  Epochs: 50,  Batch Size: 250,  Learn rate: 0.1000
+MSE:  0.02177 
+
+3) Parameters HN: 6,  Epochs: 350,  Batch Size: 10,  Learn rate: 0.0001
+MSE:  0.02245 
+
+4) Parameters HN: 6,  Epochs: 10,  Batch Size: 80,  Learn rate: 0.1000
+MSE:  0.02247 
+
+5) Parameters HN: 2,  Epochs: 25,  Batch Size: 50,  Learn rate: 0.0100
+MSE:  0.02252 
+
+6) Parameters HN: 2,  Epochs: 25,  Batch Size: 100,  Learn rate: 0.0200
+MSE:  0.02266 
+
+7) Parameters HN: 4,  Epochs: 300,  Batch Size: 250,  Learn rate: 0.0010
+MSE:  0.02297 
+
+8) Parameters HN: 2,  Epochs: 25,  Batch Size: 80,  Learn rate: 0.1000
+MSE:  0.02305 
+
+Written to Grid_RNN_10000_2.csv successfully.
+
+
+Parallel processing activated, print functions are surpressed.
+Random search algorithm execution time:  0:23:28.044619 (hrs:mins:secs). Cores:  32
+Random search algorithm effective time:  12:30:57.427808 (hrs:mins:secs).
+No. of parameter configurations:  4000
+1) Parameters HN: 4, Epochs: 264, Batch Size: 166, Learn rate: 0.0013
+MSE:  0.02197 
+
+2) Parameters HN: 3, Epochs: 43, Batch Size: 229, Learn rate: 0.0669
+MSE:  0.02269 
+
+3) Parameters HN: 5, Epochs: 295, Batch Size: 195, Learn rate: 0.0013
+MSE:  0.02304 
+
+4) Parameters HN: 3, Epochs: 382, Batch Size: 122, Learn rate: 0.0533
+MSE:  0.02307 
+
+5) Parameters HN: 2, Epochs: 96, Batch Size: 210, Learn rate: 0.0933
+MSE:  0.02322 
+
+6) Parameters HN: 2, Epochs: 45, Batch Size: 276, Learn rate: 0.0471
+MSE:  0.02323 
+
+7) Parameters HN: 4, Epochs: 365, Batch Size: 267, Learn rate: 0.0009
+MSE:  0.02359 
+
+8) Parameters HN: 2, Epochs: 360, Batch Size: 200, Learn rate: 0.0019
+MSE:  0.02373 
+
+Written to Random_RNN_4000_2.csv successfully.
+
+Summary of RNN execution times:
+Grid: 3.3 hours at 32 cores, effective time: 107.9 hours
+Random: 0.39 hours at 32 cores, effective time: 12.5 hours
+Random Forest: 9.7, average: 2.4 hours
+Bayesian: total: 29.5, average 7.4 hours
+
+Two step method
+Overall, execution times utilising up to 32 cores
+Stage 1: 118.65 mins in total, 29.66 minutes or, 0.5 hours when using 32 cores
+
+Analysis time
+Stage 2: 10.2 + 23.42  = 33.62 minutes, 0.56 hours.
+Total: 63.28 minutes, 1.1 hours.
+
+Utilising only 1 core: 2024 minutes, 33.7 hours

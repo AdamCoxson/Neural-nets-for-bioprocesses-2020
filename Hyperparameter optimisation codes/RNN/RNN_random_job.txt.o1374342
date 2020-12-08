@@ -1,0 +1,28 @@
+Parallel processing activated, print functions are surpressed.
+Random search algorithm execution time:  1:14:32.241912 (hrs:mins:secs)
+No. of parameter configurations:  4000
+1) Parameters HN: 7, Epochs: 257, Batch Size: 273, Learn rate: 0.0048
+MSE:  0.02094 
+
+2) Parameters HN: 14, Epochs: 380, Batch Size: 96, Learn rate: 0.0053
+MSE:  0.02167 
+
+3) Parameters HN: 5, Epochs: 40, Batch Size: 208, Learn rate: 0.0427
+MSE:  0.0253 
+
+4) Parameters HN: 10, Epochs: 92, Batch Size: 236, Learn rate: 0.0074
+MSE:  0.02566 
+
+5) Parameters HN: 3, Epochs: 76, Batch Size: 176, Learn rate: 0.0055
+MSE:  0.02672 
+
+6) Parameters HN: 5, Epochs: 264, Batch Size: 119, Learn rate: 0.0007
+MSE:  0.02681 
+
+7) Parameters HN: 3, Epochs: 190, Batch Size: 79, Learn rate: 0.0021
+MSE:  0.02757 
+
+8) Parameters HN: 6, Epochs: 103, Batch Size: 85, Learn rate: 0.0026
+MSE:  0.02777 
+
+Written to Random_RNN_4000_1.csv successfully.

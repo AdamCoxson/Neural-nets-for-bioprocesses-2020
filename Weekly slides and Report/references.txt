@@ -1,0 +1,2 @@
+Ref for grid vs rand image
+https://nanonets.com/blog/hyperparameter-optimization/

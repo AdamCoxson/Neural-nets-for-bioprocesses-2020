@@ -1,0 +1,8 @@
+1]Gençay, Ramazan, and Tung Liu. "Nonlinear modelling and prediction with feedforward and recurrent networks." Physica D: Nonlinear Phenomena 108.1-2 (1997): 119-134.
+
+[2]Pan, Shaowu, and Karthik Duraisamy. "Data-driven Discovery of Closure Models." arXiv preprint arXiv:1803.09318 (2018).
+
+A comparison of feed-forward and recurrent neural networks in time series forecasting
+https://ieeexplore.ieee.org/abstract/document/6327793
+Comparison of Feed-Forward and Recurrent Neural Networks in Active Cancellation of Sound Noise
+https://ieeexplore.ieee.org/abstract/document/5957460

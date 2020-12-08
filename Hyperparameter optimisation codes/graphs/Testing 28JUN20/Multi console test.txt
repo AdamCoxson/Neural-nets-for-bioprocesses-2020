@@ -1,0 +1,167 @@
+Grid search algorithm execution time:  0:51:58.922227 (hrs:mins:secs:microsecs)
+200 parameter configurations
+1 ) Params: HN =  4  Epochs =  300  LR =  0.002  Batch Size =  50
+MSE:  0.0041141618332070405 
+
+2 ) Params: HN =  8  Epochs =  50  LR =  0.018000000000000002  Batch Size =  100
+MSE:  0.004316733942074262 
+
+3 ) Params: HN =  8  Epochs =  100  LR =  0.002  Batch Size =  100
+MSE:  0.004448100445710927 
+
+4 ) Params: HN =  8  Epochs =  100  LR =  0.008  Batch Size =  100
+MSE:  0.004849783917362269 
+
+5 ) Params: HN =  4  Epochs =  100  LR =  0.002  Batch Size =  50
+MSE:  0.004940989132030127 
+
+6 ) Params: HN =  4  Epochs =  300  LR =  0.004  Batch Size =  100
+MSE:  0.005007311859742253 
+
+7 ) Params: HN =  8  Epochs =  50  LR =  0.012  Batch Size =  100
+MSE:  0.005273796469625826 
+
+8 ) Params: HN =  4  Epochs =  100  LR =  0.014  Batch Size =  100
+MSE:  0.005532932275597442 
+
+------ 4 consoles
+(A)
+Grid search algorithm execution time:  0:50:04.947765 (hrs:mins:secs:microsecs)
+No. of parameter configurations:  200
+1 ) Params: HN =  8  Epochs =  50  LR =  0.012  Batch Size =  100
+MSE:  0.004618131673211075 
+
+2 ) Params: HN =  8  Epochs =  100  LR =  0.008  Batch Size =  100
+MSE:  0.0047227039468781895 
+
+3 ) Params: HN =  8  Epochs =  50  LR =  0.006  Batch Size =  50
+MSE:  0.004889816218322971 
+
+4 ) Params: HN =  4  Epochs =  300  LR =  0.002  Batch Size =  50
+MSE:  0.005057417721436963 
+
+5 ) Params: HN =  8  Epochs =  100  LR =  0.004  Batch Size =  100
+MSE:  0.005093465329818125 
+
+6 ) Params: HN =  8  Epochs =  200  LR =  0.004  Batch Size =  100
+MSE:  0.005160488643839826 
+
+7 ) Params: HN =  4  Epochs =  100  LR =  0.008  Batch Size =  50
+MSE:  0.00517630403691944 
+
+8 ) Params: HN =  4  Epochs =  300  LR =  0.004  Batch Size =  100
+MSE:  0.005219146328989347 
+(B)
+Grid search algorithm execution time:  0:50:17.230002 (hrs:mins:secs:microsecs)
+No. of parameter configurations:  200
+1 ) Params: HN =  4  Epochs =  100  LR =  0.014  Batch Size =  50
+MSE:  0.004399016778127907 
+
+2 ) Params: HN =  4  Epochs =  300  LR =  0.004  Batch Size =  100
+MSE:  0.00440113856640688 
+
+3 ) Params: HN =  8  Epochs =  50  LR =  0.018000000000000002  Batch Size =  100
+MSE:  0.004448609973896979 
+
+4 ) Params: HN =  4  Epochs =  50  LR =  0.006  Batch Size =  50
+MSE:  0.004813755633192905 
+
+5 ) Params: HN =  4  Epochs =  200  LR =  0.004  Batch Size =  100
+MSE:  0.004825983185033225 
+
+6 ) Params: HN =  4  Epochs =  100  LR =  0.014  Batch Size =  100
+MSE:  0.004848264355674885 
+
+7 ) Params: HN =  8  Epochs =  100  LR =  0.008  Batch Size =  100
+MSE:  0.00502374254932097 
+
+8 ) Params: HN =  4  Epochs =  100  LR =  0.008  Batch Size =  50
+MSE:  0.005087894105250115
+(C)
+Grid search algorithm execution time:  0:50:07.188553 (hrs:mins:secs:microsecs)
+No. of parameter configurations:  200
+1 ) Params: HN =  8  Epochs =  100  LR =  0.008  Batch Size =  100
+MSE:  0.0037104619218449202 
+
+2 ) Params: HN =  8  Epochs =  100  LR =  0.014  Batch Size =  100
+MSE:  0.004347605564179198 
+
+3 ) Params: HN =  4  Epochs =  200  LR =  0.004  Batch Size =  100
+MSE:  0.004723243117022305 
+
+4 ) Params: HN =  4  Epochs =  300  LR =  0.004  Batch Size =  100
+MSE:  0.004730153511483758 
+
+5 ) Params: HN =  4  Epochs =  100  LR =  0.002  Batch Size =  50
+MSE:  0.004972937233939181 
+
+6 ) Params: HN =  4  Epochs =  300  LR =  0.002  Batch Size =  50
+MSE:  0.005011965235607248 
+
+7 ) Params: HN =  8  Epochs =  300  LR =  0.006  Batch Size =  100
+MSE:  0.0050382893195644474 
+
+8 ) Params: HN =  4  Epochs =  100  LR =  0.014  Batch Size =  100
+MSE:  0.005056341104959784 
+(D)
+Grid search algorithm execution time:  0:50:08.634129 (hrs:mins:secs:microsecs)
+No. of parameter configurations:  200
+1 ) Params: HN =  8  Epochs =  100  LR =  0.012  Batch Size =  100
+MSE:  0.0037702080246573796 
+
+2 ) Params: HN =  8  Epochs =  300  LR =  0.006  Batch Size =  100
+MSE:  0.004596713191257017 
+
+3 ) Params: HN =  8  Epochs =  100  LR =  0.008  Batch Size =  100
+MSE:  0.004609049775921965 
+
+4 ) Params: HN =  8  Epochs =  100  LR =  0.004  Batch Size =  100
+MSE:  0.0049674009369781 
+
+5 ) Params: HN =  8  Epochs =  100  LR =  0.018000000000000002  Batch Size =  50
+MSE:  0.005001512249140821 
+
+6 ) Params: HN =  4  Epochs =  200  LR =  0.004  Batch Size =  100
+MSE:  0.005059975251583573 
+
+7 ) Params: HN =  8  Epochs =  400  LR =  0.002  Batch Size =  50
+MSE:  0.005091333730748224 
+
+8 ) Params: HN =  4  Epochs =  300  LR =  0.008  Batch Size =  50
+MSE:  0.005155266457911026
+
+
+-------------------------------------------
+49 mniutes for 1
+
+##################  01/07/2020  ##################################
+
+1 Console:
+No. of parameter configurations:  112
+Grid search algorithm execution time:  0:23:37.269347 (hrs:mins:secs)
+
+4 Consoles:
+No. of parameter configurations:  112
+Grid search algorithm execution time:  0:23:09.737043 (hrs:mins:secs)
+Grid search algorithm execution time:  0:23:05.075509 (hrs:mins:secs)
+Grid search algorithm execution time:  0:23:11.196140 (hrs:mins:secs)
+Grid search algorithm execution time:  0:23:09.239340 (hrs:mins:secs)
+Average time ~ 23.7 minutes
+
+8 Consoles:
+No. of parameter configurations:  112
+Grid search algorithm execution time:  0:34:59.270718 (hrs:mins:secs:microsecs)
+Grid search algorithm execution time:  0:35:02.655778 (hrs:mins:secs:microsecs)
+Grid search algorithm execution time:  0:35:12.405831 (hrs:mins:secs:microsecs)
+Grid search algorithm execution time:  0:34:47.945630 (hrs:mins:secs:microsecs)
+Grid search algorithm execution time:  0:35:21.492500 (hrs:mins:secs)
+Grid search algorithm execution time:  0:34:54.820220 (hrs:mins:secs)
+Grid search algorithm execution time:  0:35:08.505457 (hrs:mins:secs)
+Grid search algorithm execution time:  0:35:17.147150 (hrs:mins:secs)
+Average time ~ 35 minutes
+
+16 consoles:
+No. of parameter configurations:  112
+Grid search algorithm execution time:  0:50:19.858159 (hrs:mins:secs)
++15 more
+Average time ~ 52 minutes

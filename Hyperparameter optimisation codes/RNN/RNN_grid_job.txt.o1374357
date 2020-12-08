@@ -1,0 +1,28 @@
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  3:21:22.243225 (hrs:mins:secs)
+No. of parameter configurations:  10000
+1) Parameters HN: 4,  Epochs: 250,  Batch Size: 10,  Learn rate: 0.0002
+MSE:  0.01898 
+
+2) Parameters HN: 18,  Epochs: 400,  Batch Size: 10,  Learn rate: 0.0040
+MSE:  0.01968 
+
+3) Parameters HN: 14,  Epochs: 200,  Batch Size: 25,  Learn rate: 0.0100
+MSE:  0.01981 
+
+4) Parameters HN: 20,  Epochs: 400,  Batch Size: 150,  Learn rate: 0.1000
+MSE:  0.02096 
+
+5) Parameters HN: 10,  Epochs: 350,  Batch Size: 50,  Learn rate: 0.0100
+MSE:  0.0216 
+
+6) Parameters HN: 18,  Epochs: 350,  Batch Size: 200,  Learn rate: 0.0200
+MSE:  0.02198 
+
+7) Parameters HN: 10,  Epochs: 400,  Batch Size: 10,  Learn rate: 0.0020
+MSE:  0.02253 
+
+8) Parameters HN: 10,  Epochs: 50,  Batch Size: 300,  Learn rate: 0.1000
+MSE:  0.02326 
+
+Written to Grid_RNN_10000_1.csv successfully.

@@ -1,0 +1,130 @@
+FNN Bayesian GP Optimisation execution time:  8:05:44.859574 (hrs:mins:secs)
+Best MSE: 0.0226189
+Best Parameters HN: (4, 8), Epochs: 40, Batch Size: 105, Learn rate: 0.0782
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to FNN_Bayesian_250_A1.csv successfully.
+
+FNN Bayesian GP Optimisation execution time:  4:05:34.052380 (hrs:mins:secs)
+Best MSE: 0.0212275
+Best Parameters HN: (4, 2), Epochs: 133, Batch Size: 143, Learn rate: 0.0008
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to FNN_Bayesian_250_A2.csv successfully.
+
+FNN Bayesian GP Optimisation execution time:  6:42:30.756834 (hrs:mins:secs)
+Best MSE: 0.0238039
+Best Parameters HN: (4, 8), Epochs: 60, Batch Size: 87, Learn rate: 0.0804
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to FNN_Bayesian_250_A3.csv successfully.
+
+FNN Bayesian GP Optimisation execution time:  1:40:15.498519 (hrs:mins:secs)
+Best MSE: 0.0216405
+Best Parameters HN: (4, 10), Epochs: 226, Batch Size: 162, Learn rate: 0.0498
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to FNN_Bayesian_250_A4.csv successfully.
+
+Total: 20.568 Average: 5.142 
+---------------------------------------------------------------------------
+
+FNN Random Forest execution time:  3:35:17.345553 (hrs:mins:secs)
+Best MSE: 0.0246905
+Best Parameters HN: (6, 8), Epochs: 52, Batch Size: 256, Learn rate: 0.0515
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to random_forest_250_B1.csv successfully.
+
+FNN Random Forest execution time:  1:58:29.020904 (hrs:mins:secs)
+Best MSE: 0.0232382
+Best Parameters HN: (4, 8), Epochs: 119, Batch Size: 265, Learn rate: 0.0912
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to random_forest_250_B2.csv successfully.
+
+FNN Random Forest execution time:  3:27:14.240456 (hrs:mins:secs)
+Best MSE: 0.0258024
+Best Parameters HN: (4, 6), Epochs: 355, Batch Size: 157, Learn rate: 0.0858
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to random_forest_250_B3.csv successfully.
+
+FNN Random Forest execution time:  6:47:49.731259 (hrs:mins:secs)
+Best MSE: 0.0277703
+Best Parameters HN: (4, 10), Epochs: 59, Batch Size: 184, Learn rate: 0.0465
+CPU: Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz
+Written to FNN_randF_250_4.csv successfully.
+
+total: 15.81, avg: 3.95
+
+-----------------------------------------------------------------------------
+
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  16:31:18.183419 (hrs:mins:secs). Cores:  32
+Grid search algorithm effective time:  22 days, 0:41:41.869408 (hrs:mins:secs).
+No. of parameter configurations:  10000
+1) Parameters HN: (4, 4), Epochs: 150, Batch Size: 10, Learn rate: 0.0002
+MSE:  0.01899 
+
+2) Parameters HN: (4, 4), Epochs: 300, Batch Size: 200, Learn rate: 0.0004
+MSE:  0.01942 
+
+3) Parameters HN: (4, 4), Epochs: 300, Batch Size: 300, Learn rate: 0.0004
+MSE:  0.01943 
+
+4) Parameters HN: (6, 4), Epochs: 10, Batch Size: 50, Learn rate: 0.0040
+MSE:  0.01973 
+
+5) Parameters HN: (4, 2), Epochs: 50, Batch Size: 50, Learn rate: 0.0010
+MSE:  0.01977 
+
+6) Parameters HN: (4, 2), Epochs: 300, Batch Size: 10, Learn rate: 0.0002
+MSE:  0.01982 
+
+7) Parameters HN: (4, 2), Epochs: 250, Batch Size: 10, Learn rate: 0.0001
+MSE:  0.02023 
+
+8) Parameters HN: (4, 4), Epochs: 50, Batch Size: 100, Learn rate: 0.0010
+MSE:  0.02048 
+
+Written to Grid_FNN_10000_2.csv successfully.
+
+Parallel processing activated, print functions are surpressed.
+Random search algorithm execution time:  1:51:00.150404 (hrs:mins:secs). Cores:  32
+Random search algorithm effective time:  2 days, 11:12:04.812928 (hrs:mins:secs).
+No. of parameter configurations:  4000
+1) Parameters HN: (4, 2), Epochs: 389, Batch Size: 121, Learn rate: 0.0003
+MSE:  0.01897 
+
+2) Parameters HN: (4, 4), Epochs: 256, Batch Size: 245, Learn rate: 0.0004
+MSE:  0.02032 
+
+3) Parameters HN: (4, 4), Epochs: 52, Batch Size: 234, Learn rate: 0.0017
+MSE:  0.02088 
+
+4) Parameters HN: (6, 4), Epochs: 113, Batch Size: 73, Learn rate: 0.0004
+MSE:  0.02102 
+
+5) Parameters HN: (4, 2), Epochs: 366, Batch Size: 239, Learn rate: 0.0005
+MSE:  0.0211 
+
+6) Parameters HN: (4, 4), Epochs: 184, Batch Size: 295, Learn rate: 0.0011
+MSE:  0.0213 
+
+7) Parameters HN: (4, 4), Epochs: 276, Batch Size: 29, Learn rate: 0.0022
+MSE:  0.02132 
+
+8) Parameters HN: (4, 4), Epochs: 293, Batch Size: 283, Learn rate: 0.0006
+MSE:  0.02142 
+
+Written to Random_FNN_4000_2.csv successfully.
+
+time summary
+Grid: 16.52, eff: 528.7
+Random: 1.85, eff: 59.2
+Random Forest: total: 15.81, avg: 3.95
+Bayesian Total: 29.1 Average: 7.3 
+
+Two step method
+Overall, execution times utilising up to 32 cores
+Stage 1: 69.95 mins in total, 17.5 minutes or, 0.3 hours when using 32 cores
+
+Analysis time
+Stage 2: 112.7+ 45.7 = 158.45 minutes, 2.64 hours.
+Total: 176 minutes, 2.9 hours.
+
+Utilising only 1 core: 5632 minutes, 93.9 hours

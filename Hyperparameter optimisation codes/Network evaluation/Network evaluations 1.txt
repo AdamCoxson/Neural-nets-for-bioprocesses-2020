@@ -1,0 +1,143 @@
+Bayesian Optimization ----------------------------------------------
+Parameters HN: (2, 8), Epochs: 71, Batch Size: 106, Learn rate: 0.0114
+mean error values:
+ [0.19776415 0.24438014 0.21561018 0.2128972  0.21710264 0.22077963
+ 0.21971379 0.21435325 0.2121893  0.21193099]
+MSE: 0.0469, Mean: 0.2167, Std dev: 0.0110
+FNN training execution time:  0:00:41.211850 (hrs:mins:secs)
+
+Parameters HN: (6, 2), Epochs: 360, Batch Size: 178, Learn rate: 0.0110
+mean error values:
+ [0.2369274  0.22866554 0.25031071 0.24786585 0.24109126 0.23479331
+ 0.23200264 0.22981008 0.2279497  0.22718473]
+MSE: 0.0555, Mean: 0.2357, Std dev: 0.0079
+FNN training execution time:  0:02:10.676596 (hrs:mins:secs)
+
+Parameters HN: (2, 8), Epochs: 318, Batch Size: 89, Learn rate: 0.0701
+mean error values:
+ [0.21196331 0.21716243 0.22143415 0.21942791 0.21867137 0.21828096
+ 0.21805511 0.21793605 0.21805186 0.2180958 ]
+MSE: 0.0475, Mean: 0.2179, Std dev: 0.0023
+FNN training execution time:  0:03:40.263934 (hrs:mins:secs)
+
+Parameters HN: (10, 8), Epochs: 334, Batch Size: 31, Learn rate: 0.1000
+mean error values:
+ [0.26686325 0.24250505 0.23123148 0.23864661 0.23329832 0.23705455
+ 0.24294342 0.24198021 0.24473442 0.24569162]
+MSE: 0.0588, Mean: 0.2425, Std dev: 0.0093
+FNN training execution time:  0:10:46.620285 (hrs:mins:secs)
+
+Random Forest ----------------------------------------------
+Parameters HN: (6, 8), Epochs: 52, Batch Size: 256, Learn rate: 0.0515
+mean error values:
+ [0.21018549 0.27001033 0.23029384 0.21067976 0.20772899 0.21086475
+ 0.21702293 0.22312967 0.23059064 0.23516046]
+MSE: 0.0504, Mean: 0.2246, Std dev: 0.0178
+FNN training execution time:  0:00:15.089629 (hrs:mins:secs)
+
+Parameters HN: (4, 8), Epochs: 119, Batch Size: 265, Learn rate: 0.0912
+mean error values:
+ [0.19699389 0.21295936 0.20907825 0.20179749 0.20023239 0.19928629
+ 0.19758491 0.19468749 0.19188346 0.18936853]
+MSE: 0.0398, Mean: 0.1994, Std dev: 0.0069
+FNN training execution time:  0:00:32.296654 (hrs:mins:secs)
+
+Parameters HN: (4, 6), Epochs: 355, Batch Size: 157, Learn rate: 0.0858
+mean error values:
+ [0.18538469 0.18964445 0.20271184 0.20741526 0.20593608 0.20591299
+ 0.20656049 0.20671566 0.20671083 0.20663553]
+MSE: 0.0410, Mean: 0.2024, Std dev: 0.0076
+FNN training execution time:  0:02:29.184146 (hrs:mins:secs)
+
+Parameters HN: (4, 10), Epochs: 59, Batch Size: 184, Learn rate: 0.0465
+mean error values:
+ [0.18472536 0.19961926 0.20486607 0.18146783 0.17768122 0.18783955
+ 0.19952475 0.20844186 0.21827539 0.22144038]
+MSE: 0.0394, Mean: 0.1984, Std dev: 0.0144
+FNN training execution time:  0:00:21.708960 (hrs:mins:secs)
+
+Script execution time:  0:20:57.059074 (hrs:mins:secs)
+No. of parameter configurations:  8
+
+Grid Search ------------------------------------------------
+
+Parameters HN: (4, 4), Epochs: 150, Batch Size: 10, Learn rate: 0.0002
+mean error values:
+ [0.19738713 0.2070704  0.19068435 0.1807725  0.17986662 0.18246624
+ 0.21164759 0.2306039  0.23599013 0.23854048]
+MSE: 0.0422, Mean: 0.2055, Std dev: 0.0219
+FNN training execution time:  0:14:38.333827 (hrs:mins:secs)
+
+Parameters HN: (4, 4), Epochs: 300, Batch Size: 200, Learn rate: 0.0004
+mean error values:
+ [0.19044998 0.2253722  0.22713897 0.22617503 0.22486626 0.22343883
+ 0.2219623  0.22048639 0.21905857 0.21772262]
+MSE: 0.0483, Mean: 0.2197, Std dev: 0.0102
+FNN training execution time:  0:01:40.280865 (hrs:mins:secs)
+
+Parameters HN: (4, 4), Epochs: 300, Batch Size: 300, Learn rate: 0.0004
+mean error values:
+ [0.18745508 0.20766083 0.2502946  0.24647172 0.24104146 0.23813221
+ 0.23659043 0.2356502  0.23486825 0.23391608]
+MSE: 0.0535, Mean: 0.2312, Std dev: 0.0181
+FNN training execution time:  0:01:10.231231 (hrs:mins:secs)
+
+Parameters HN: (6, 4), Epochs: 10, Batch Size: 50, Learn rate: 0.0040
+mean error values:
+ [0.18272214 0.22887588 0.23393498 0.23679413 0.24593035 0.27344541
+ 0.29733179 0.30147559 0.29837928 0.29303839]
+MSE: 0.0672, Mean: 0.2592, Std dev: 0.0377
+FNN training execution time:  0:00:12.141671 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 50, Batch Size: 50, Learn rate: 0.0010
+mean error values:
+ [0.15843828 0.18181392 0.1869046  0.19534797 0.20241404 0.20583133
+ 0.20753269 0.20846066 0.20902093 0.20938985]
+MSE: 0.0386, Mean: 0.1965, Std dev: 0.0157
+FNN training execution time:  0:00:59.541100 (hrs:mins:secs)
+
+Random Search ----------------------------------------------
+
+Parameters HN: (4, 2), Epochs: 389, Batch Size: 121, Learn rate: 0.0003
+mean error values:
+ [0.2012759  0.21950784 0.21906351 0.21832279 0.21744359 0.21631027
+ 0.21493722 0.2136603  0.21288427 0.21265193]
+MSE: 0.0461, Mean: 0.2146, Std dev: 0.0050
+FNN training execution time:  0:03:15.771432 (hrs:mins:secs)
+
+Parameters HN: (4, 4), Epochs: 256, Batch Size: 245, Learn rate: 0.0004
+mean error values:
+ [0.15984901 0.18619685 0.18485047 0.19625603 0.1997801  0.19984428
+ 0.19892353 0.19755061 0.19590562 0.1940993 ]
+MSE: 0.0366, Mean: 0.1913, Std dev: 0.0116
+FNN training execution time:  0:01:09.224893 (hrs:mins:secs)
+
+Parameters HN: (4, 4), Epochs: 52, Batch Size: 234, Learn rate: 0.0017
+mean error values:
+ [0.18683215 0.20911315 0.23740642 0.23915894 0.23782644 0.23708455
+ 0.23618008 0.23527337 0.23442208 0.23356763]
+MSE: 0.0523, Mean: 0.2287, Std dev: 0.0162
+FNN training execution time:  0:00:15.449695 (hrs:mins:secs)
+
+Parameters HN: (6, 4), Epochs: 113, Batch Size: 73, Learn rate: 0.0004
+mean error values:
+ [0.18697214 0.20597555 0.21291106 0.21543986 0.21095823 0.20835956
+ 0.20732297 0.20580396 0.20462299 0.20421136]
+MSE: 0.0425, Mean: 0.2063, Std dev: 0.0073
+FNN training execution time:  0:01:32.171788 (hrs:mins:secs)
+
+Parameters HN: (4, 2), Epochs: 366, Batch Size: 239, Learn rate: 0.0005
+mean error values:
+ [0.21788552 0.22448858 0.22503674 0.22423035 0.2231224  0.22192566
+ 0.2206821  0.21940539 0.21811215 0.21683338]
+MSE: 0.0489, Mean: 0.2212, Std dev: 0.0029
+FNN training execution time:  0:01:39.543827 (hrs:mins:secs)
+
+Script execution time:  0:26:32.698322 (hrs:mins:secs)
+No. of parameter configurations:  10
+--------------------------------------------------------------------------------
+Lowest for each:
+Random Search  MSE 0.0366 HN: (4, 4), Epochs: 256, Batch Size: 245, Learn rate: 0.0004
+Grid Search:   MSE 0.0386 HN: (4, 2), Epochs: 50, Batch Size: 50, Learn rate: 0.0010
+Random Forest: MSE 0.0394 HN: (4, 10), Epochs: 59, Batch Size: 184, Learn rate: 0.0465
+Bayesian:      MSE 0.0469 HN: (2, 8), Epochs: 71, Batch Size: 106, Learn rate: 0.0114

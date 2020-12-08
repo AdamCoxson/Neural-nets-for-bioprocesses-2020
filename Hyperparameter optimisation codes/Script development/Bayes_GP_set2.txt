@@ -1,0 +1,14 @@
+Bayesian GP Optimisation execution time:  1:55:23.359278 (hrs:mins:secs)
+Best MSE: 0.0083506
+Best Parameters HN: (4, 4), Epochs: 231, Batch Size: 130, Learn rate: 0.0465
+Written to Bayesian_GP_set2_1.csv successfully.
+
+Bayesian GP Optimisation execution time:  2:00:46.596482 (hrs:mins:secs)
+Best MSE: 0.0070888
+Best Parameters HN: (2, 1), Epochs: 153, Batch Size: 122, Learn rate: 0.1533
+Written to Bayesian_GP_set2_2.csv successfully.
+
+Bayesian GP Optimisation execution time:  1:53:43.645671 (hrs:mins:secs)
+Best MSE: 0.0098830
+Best Parameters HN: (4, 6), Epochs: 170, Batch Size: 70, Learn rate: 0.0815
+Written to Bayesian_GP_set2_3.csv successfully.

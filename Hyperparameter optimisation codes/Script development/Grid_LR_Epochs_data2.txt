@@ -1,0 +1,27 @@
+Grid search algorithm execution time:  17:35:41.348435 (hrs:mins:secs)
+No. of parameter configurations:  2499
+1 ) Params: HN = (4,8), Epochs =  60.0  LR =  0.086596  Batch Size = 50
+MSE:  0.0031889326021847 
+
+2 ) Params: HN = (4,8), Epochs =  50.0  LR =  0.031623  Batch Size = 50
+MSE:  0.003465755056201477 
+
+3 ) Params: HN = (4,8), Epochs =  340.0  LR =  0.023714  Batch Size = 50
+MSE:  0.0035587890332224935 
+
+4 ) Params: HN = (4,8), Epochs =  430.0  LR =  0.064938  Batch Size = 50
+MSE:  0.0038714643842937472 
+
+5 ) Params: HN = (4,8), Epochs =  90.0  LR =  0.064938  Batch Size = 50
+MSE:  0.003926177038986762 
+
+6 ) Params: HN = (4,8), Epochs =  350.0  LR =  0.001778  Batch Size = 50
+MSE:  0.004051413499434637 
+
+7 ) Params: HN = (4,8), Epochs =  360.0  LR =  0.002054  Batch Size = 50
+MSE:  0.004113712021322934 
+
+8 ) Params: HN = (4,8), Epochs =  430.0  LR =  0.000866  Batch Size = 50
+MSE:  0.004223636650449736 
+
+Written to Grid_search_LR_EPOCHS.csv successfully.

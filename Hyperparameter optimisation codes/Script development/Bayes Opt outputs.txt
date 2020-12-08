@@ -1,0 +1,50 @@
+08/07/2020 - initial running and testing on 4 consoles. Placed in performance order.
+n_calls = 130, N_random_starts = 30.
+
+Bayesian GP Optimisation execution time:  0:27:30.877077 (hrs:mins:secs)
+Best MSE: 0.0041491
+Best Parameters: Epochs = 261, Batch Size = 110, Learn rate = 0.0833
+
+Bayesian GP Optimisation execution time:  0:23:54.859701 (hrs:mins:secs)
+Best MSE: 0.0043204
+Best Parameters: Epochs = 232, Batch Size = 314, Learn rate = 0.1919
+
+Bayesian GP Optimisation execution time:  0:24:37.452793 (hrs:mins:secs)
+Best MSE: 0.0050494
+Best Parameters: Epochs = 113, Batch Size = 500, Learn rate = 0.0226
+
+Bayesian GP Optimisation execution time:  0:20:48.250481 (hrs:mins:secs)
+Best MSE: 0.0053919
+Best Parameters: Epochs = 365, Batch Size = 291, Learn rate = 0.1910
+
+------ Demo data --------
+
+MSE =  0.0071458 , Epochs =  184 , Batch Size =  438 , Learning rate =  0.0260216
+MSE =  0.0059347 , Epochs =  292 , Batch Size =  182 , Learning rate =  0.0102859
+MSE =  0.0106944 , Epochs =  125 , Batch Size =  50 , Learning rate =  0.2178137
+MSE =  0.0130253 , Epochs =  155 , Batch Size =  341 , Learning rate =  0.2950958
+MSE =  0.0079895 , Epochs =  198 , Batch Size =  457 , Learning rate =  0.0570439
+MSE =  0.0114927 , Epochs =  68 , Batch Size =  455 , Learning rate =  0.2053291
+MSE =  0.0066048 , Epochs =  384 , Batch Size =  233 , Learning rate =  0.168986
+MSE =  0.0107596 , Epochs =  322 , Batch Size =  472 , Learning rate =  0.0670854
+MSE =  0.0093995 , Epochs =  284 , Batch Size =  255 , Learning rate =  0.060878
+MSE =  0.0116403 , Epochs =  255 , Batch Size =  81 , Learning rate =  0.0159802
+MSE =  0.0073865 , Epochs =  298 , Batch Size =  184 , Learning rate =  0.0173194
+MSE =  0.0055447 , Epochs =  289 , Batch Size =  181 , Learning rate =  0.0062896
+MSE =  0.0083393 , Epochs =  286 , Batch Size =  180 , Learning rate =  0.0035609
+MSE =  0.0138096 , Epochs =  291 , Batch Size =  182 , Learning rate =  0.0088253
+MSE =  0.01992 , Epochs =  309 , Batch Size =  191 , Learning rate =  0.0369203
+MSE =  0.013759 , Epochs =  290 , Batch Size =  181 , Learning rate =  0.0077125
+MSE =  0.0092973 , Epochs =  384 , Batch Size =  75 , Learning rate =  0.168986
+MSE =  0.0267387 , Epochs =  384 , Batch Size =  236 , Learning rate =  0.168986
+MSE =  0.0205747 , Epochs =  341 , Batch Size =  182 , Learning rate =  0.0086839
+MSE =  0.0100637 , Epochs =  290 , Batch Size =  181 , Learning rate =  0.0082456
+MSE =  0.007192 , Epochs =  290 , Batch Size =  181 , Learning rate =  0.0080476
+MSE =  0.006171 , Epochs =  290 , Batch Size =  181 , Learning rate =  0.0079479
+MSE =  0.0047566 , Epochs =  290 , Batch Size =  181 , Learning rate =  0.0078735
+MSE =  0.0067492 , Epochs =  290 , Batch Size =  181 , Learning rate =  0.0077162
+MSE =  0.0256019 , Epochs =  290 , Batch Size =  181 , Learning rate =  0.0175875
+
+Bayesian GP Optimisation execution time:  0:03:27.417601 (hrs:mins:secs)
+Best MSE: 0.0047566
+Best Parameters: Epochs = 290, Batch Size = 181, Learn rate = 0.0079

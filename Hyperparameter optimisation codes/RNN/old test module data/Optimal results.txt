@@ -1,0 +1,115 @@
+Bayesian GP Optimisation execution time:  0:59:57.369943 (hrs:mins:secs)
+Best MSE: 0.0337559
+Best Parameters HN: 2, Epochs: 40, Batch Size: 188, Learn rate: 0.0296
+Written to Bayesian_GP_RNN_250_1.csv successfully.
+
+Bayesian GP Optimisation execution time:  0:27:08.522036 (hrs:mins:secs)
+Best MSE: 0.0224199
+Best Parameters HN: 7, Epochs: 93, Batch Size: 194, Learn rate: 0.0051
+Written to Bayesian_GP_RNN_250_2.csv successfully.
+
+Bayesian GP Optimisation execution time:  1:10:38.043851 (hrs:mins:secs)
+Best MSE: 0.0326140
+Best Parameters HN: 15, Epochs: 279, Batch Size: 1, Learn rate: 0.0408
+Written to Bayesian_GP_RNN_250_3.csv successfully.
+
+Bayesian GP Optimisation execution time:  0:34:23.626299 (hrs:mins:secs)
+Best MSE: 0.0249825
+Best Parameters HN: 20, Epochs: 330, Batch Size: 192, Learn rate: 0.0017
+Written to Bayesian_GP_RNN_250_4.csv successfully.
+
+Bayesian GP Optimisation execution time:  0:53:17.749239 (hrs:mins:secs) disregarding this 5th set
+Best MSE: 0.0311052
+Best Parameters HN: 6, Epochs: 182, Batch Size: 135, Learn rate: 0.0300
+Written to Bayesian_GP_RNN_250_5.csv successfully.
+
+total: 192.3 minutes, 3.2 hours
+Average: 0.80 hours
+
+------------------------------------------------------------------------
+
+Random Forest execution time:  0:20:42.241813 (hrs:mins:secs)
+Best MSE: 0.0294101
+Best Parameters HN: 9, Epochs: 314, Batch Size: 220, Learn rate: 0.0859
+Written to RandF_RNN_250_1.csv successfully.
+
+Random Forest execution time:  0:16:19.937419 (hrs:mins:secs)
+Best MSE: 0.0194847
+Best Parameters HN: 5, Epochs: 123, Batch Size: 78, Learn rate: 0.0819
+Written to RandF_RNN_250_2.csv successfully.
+
+Random Forest execution time:  0:35:17.635644 (hrs:mins:secs)
+Best MSE: 0.0215703
+Best Parameters HN: 10, Epochs: 317, Batch Size: 53, Learn rate: 0.0831
+Written to RandF_RNN_250_3.csv successfully.
+
+Random Forest execution time:  0:13:27.459327 (hrs:mins:secs)
+Best MSE: 0.0230240
+Best Parameters HN: 7, Epochs: 101, Batch Size: 94, Learn rate: 0.0597
+Written to RandF_RNN_250_4.csv successfully.
+
+total: 85.8 minutes, 1.4 hours
+Average: 0.36 hours
+
+-------------------------------------------------------------------------- All above this was done on my i7 processor
+
+Parallel processing activated, print functions are surpressed.
+Grid search algorithm execution time:  3:21:22.243225 (hrs:mins:secs) 32 core skylake
+Effective Time: 6440 minutes, 107.4 hrs
+No. of parameter configurations:  10000
+1) Parameters HN: 4,  Epochs: 250,  Batch Size: 10,  Learn rate: 0.0002
+MSE:  0.01898 
+
+2) Parameters HN: 18,  Epochs: 400,  Batch Size: 10,  Learn rate: 0.0040
+MSE:  0.01968 
+
+3) Parameters HN: 14,  Epochs: 200,  Batch Size: 25,  Learn rate: 0.0100
+MSE:  0.01981 
+
+4) Parameters HN: 20,  Epochs: 400,  Batch Size: 150,  Learn rate: 0.1000
+MSE:  0.02096 
+
+5) Parameters HN: 10,  Epochs: 350,  Batch Size: 50,  Learn rate: 0.0100
+MSE:  0.0216 
+
+6) Parameters HN: 18,  Epochs: 350,  Batch Size: 200,  Learn rate: 0.0200
+MSE:  0.02198 
+
+7) Parameters HN: 10,  Epochs: 400,  Batch Size: 10,  Learn rate: 0.0020
+MSE:  0.02253 
+
+8) Parameters HN: 10,  Epochs: 50,  Batch Size: 300,  Learn rate: 0.1000
+MSE:  0.02326 
+
+Written to Grid_RNN_10000_1.csv successfully.
+
+------------------------------------------------------------------------
+Parallel processing activated, print functions are surpressed.
+Random search algorithm execution time:  1:14:32.241912 (hrs:mins:secs) 16 core skylake
+Effective Time (1 core): 1192 minutes, 19.86 hrs
+No. of parameter configurations:  4000
+1) Parameters HN: 7, Epochs: 257, Batch Size: 273, Learn rate: 0.0048
+MSE:  0.02094 
+
+2) Parameters HN: 14, Epochs: 380, Batch Size: 96, Learn rate: 0.0053
+MSE:  0.02167 
+
+3) Parameters HN: 5, Epochs: 40, Batch Size: 208, Learn rate: 0.0427
+MSE:  0.0253 
+
+4) Parameters HN: 10, Epochs: 92, Batch Size: 236, Learn rate: 0.0074
+MSE:  0.02566 
+
+5) Parameters HN: 3, Epochs: 76, Batch Size: 176, Learn rate: 0.0055
+MSE:  0.02672 
+
+6) Parameters HN: 5, Epochs: 264, Batch Size: 119, Learn rate: 0.0007
+MSE:  0.02681 
+
+7) Parameters HN: 3, Epochs: 190, Batch Size: 79, Learn rate: 0.0021
+MSE:  0.02757 
+
+8) Parameters HN: 6, Epochs: 103, Batch Size: 85, Learn rate: 0.0026
+MSE:  0.02777 
+
+Written to Random_RNN_4000_1.csv successfully.

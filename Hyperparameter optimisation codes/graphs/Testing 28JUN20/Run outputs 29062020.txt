@@ -1,0 +1,58 @@
+
+500 configurations
+HN = [4,6,8,10]
+EPOCHS = [50,100,200,300,400]
+BATCH_SIZE = [20, 50, 100, 200, 300]
+LR = [ 0.002, 0.004, 0.006, 0.008, 0.01]
+HL = 2
+---------------------------------------------------------------------------
+Grid search algorithm execution time:  2:30:53.768732 (hrs:mins:secs:microsecs)
+1 ) Params: HN =  8  Epochs =  400  LR =  0.002  Batch Size =  200
+MSE:  0.003760628820245406 
+
+2 ) Params: HN =  8  Epochs =  400  LR =  0.002  Batch Size =  300
+MSE:  0.004193781101787953 
+
+3 ) Params: HN =  4  Epochs =  200  LR =  0.006  Batch Size =  20
+MSE:  0.004444354218652225 
+
+4 ) Params: HN =  4  Epochs =  200  LR =  0.006  Batch Size =  200
+MSE:  0.004532900590263852 
+
+5 ) Params: HN =  10  Epochs =  50  LR =  0.01  Batch Size =  300
+MSE:  0.004626313977168402 
+
+6 ) Params: HN =  6  Epochs =  300  LR =  0.006  Batch Size =  300
+MSE:  0.004643857786016526 
+
+7 ) Params: HN =  6  Epochs =  100  LR =  0.006  Batch Size =  200
+MSE:  0.004666502610027185 
+
+8 ) Params: HN =  6  Epochs =  50  LR =  0.002  Batch Size =  20
+MSE:  0.004698506569042959 
+
+------------------------------------------------------------------------
+Grid search algorithm execution time:  2:27:47.913033 (hrs:mins:secs:microsecs)
+1 ) Params: HN =  6  Epochs =  400  LR =  0.006  Batch Size =  300
+MSE:  0.003703753113151714 
+
+2 ) Params: HN =  6  Epochs =  50  LR =  0.002  Batch Size =  20
+MSE:  0.0038248620778403865 
+
+3 ) Params: HN =  8  Epochs =  400  LR =  0.002  Batch Size =  300
+MSE:  0.003945322197585046 
+
+4 ) Params: HN =  10  Epochs =  200  LR =  0.004  Batch Size =  300
+MSE:  0.004282227120046853 
+
+5 ) Params: HN =  6  Epochs =  200  LR =  0.002  Batch Size =  20
+MSE:  0.004334053300436312 
+
+6 ) Params: HN =  4  Epochs =  200  LR =  0.008  Batch Size =  50
+MSE:  0.0044345690868754966 
+
+7 ) Params: HN =  4  Epochs =  200  LR =  0.006  Batch Size =  200
+MSE:  0.004447520371866234 
+
+8 ) Params: HN =  8  Epochs =  400  LR =  0.008  Batch Size =  300
+MSE:  0.00445140330895255 

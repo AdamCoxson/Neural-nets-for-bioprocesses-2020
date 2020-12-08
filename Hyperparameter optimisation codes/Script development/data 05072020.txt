@@ -1,0 +1,98 @@
+Grid search algorithm execution time:  0:29:17.470747 (hrs:mins:secs)
+No. of parameter configurations:  403
+1 ) Params: HN = (4,8), Epochs =  330  LR =  0.008  Batch Size = 300
+MSE:  0.004053894940510238 
+
+2 ) Params: HN = (4,8), Epochs =  270  LR =  0.002  Batch Size = 300
+MSE:  0.004475424293117467 
+
+3 ) Params: HN = (4,8), Epochs =  120  LR =  0.08  Batch Size = 300
+MSE:  0.004625972808351142 
+
+4 ) Params: HN = (4,8), Epochs =  150  LR =  0.03  Batch Size = 300
+MSE:  0.004649258657084374 
+
+Grid search algorithm execution time:  0:29:29.616840 (hrs:mins:secs)
+No. of parameter configurations:  403
+1 ) Params: HN = (4,8), Epochs =  270  LR =  0.002  Batch Size = 300
+MSE:  0.004478564053894105 
+
+2 ) Params: HN = (4,8), Epochs =  180  LR =  0.007  Batch Size = 300
+MSE:  0.00480126420627789 
+
+3 ) Params: HN = (4,8), Epochs =  180  LR =  0.003  Batch Size = 300
+MSE:  0.004845455237976138 
+
+4 ) Params: HN = (4,8), Epochs =  330  LR =  0.003  Batch Size = 300
+MSE:  0.004941959483838105 
+
+Grid search algorithm execution time:  0:29:34.676881 (hrs:mins:secs)
+No. of parameter configurations:  403
+1 ) Params: HN = (4,8), Epochs =  270  LR =  0.002  Batch Size = 300
+MSE:  0.004694184640685622 
+
+2 ) Params: HN = (4,8), Epochs =  210  LR =  0.007  Batch Size = 300
+MSE:  0.004766331751552986 
+
+3 ) Params: HN = (4,8), Epochs =  120  LR =  0.006  Batch Size = 300
+MSE:  0.004818858981269484 
+
+4 ) Params: HN = (4,8), Epochs =  390  LR =  0.0008  Batch Size = 300
+MSE:  0.004841034025447655 
+
+
+Random search algorithm execution time:  0:27:46.021268 (hrs:mins:secs)
+No. of parameter configurations:  400
+1 ) Params: HN =  6  Epochs =  296  LR =  0.007606  Batch Size =  300
+MSE:  0.0037128928352157327 
+
+2 ) Params: HN =  4  Epochs =  280  LR =  0.004261  Batch Size =  300
+MSE:  0.0038507995067427734 
+
+3 ) Params: HN =  6  Epochs =  266  LR =  0.005205  Batch Size =  300
+MSE:  0.004443656664872449 
+
+4 ) Params: HN =  4  Epochs =  109  LR =  0.004678  Batch Size =  300
+MSE:  0.0045541336194806934 
+
+Random search algorithm execution time:  0:22:39.703559 (hrs:mins:secs)
+No. of parameter configurations:  300
+1 ) Params: HN =  6  Epochs =  219  LR =  0.005548  Batch Size =  300
+MSE:  0.00430438836428689 
+
+2 ) Params: HN =  6  Epochs =  300  LR =  0.008753  Batch Size =  300
+MSE:  0.004535091762776003 
+
+3 ) Params: HN =  4  Epochs =  236  LR =  0.00198  Batch Size =  300
+MSE:  0.004596988876413736 
+
+4 ) Params: HN =  6  Epochs =  208  LR =  0.002218  Batch Size =  300
+MSE:  0.004735948746314914 
+
+Random search algorithm execution time:  0:28:24.559691 (hrs:mins:secs)
+No. of parameter configurations:  400
+1 ) Params: HN =  8  Epochs =  253  LR =  0.002199  Batch Size =  300
+MSE:  0.0043377 
+
+2 ) Params: HN =  8  Epochs =  266  LR =  0.143674  Batch Size =  300
+MSE:  0.0045203 
+
+3 ) Params: HN =  4  Epochs =  242  LR =  0.006449  Batch Size =  300
+MSE:  0.0045532 
+
+4 ) Params: HN =  8  Epochs =  203  LR =  0.004596  Batch Size =  300
+MSE:  0.0046307
+
+Random search algorithm execution time:  0:27:59.228394 (hrs:mins:secs)
+No. of parameter configurations:  400
+1 ) Params: HN =  8  Epochs =  224  LR =  0.007177  Batch Size =  300
+MSE:  0.0040056 
+
+2 ) Params: HN =  4  Epochs =  317  LR =  0.005023  Batch Size =  300
+MSE:  0.004407 
+
+3 ) Params: HN =  8  Epochs =  298  LR =  0.001904  Batch Size =  300
+MSE:  0.0044244 
+
+4 ) Params: HN =  4  Epochs =  256  LR =  0.002206  Batch Size =  300
+MSE:  0.0044959 
