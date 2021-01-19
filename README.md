@@ -4,8 +4,8 @@
 
 Author: Adam Coxson, MPhys Undergrad, The University of Manchester
 Email: adamcoxson1@gmail.com
-Project: Evaluating hyperparameter optimisation techinques for an FNN and RNN, Aug 2020
-Main report: Comparing FNN and RNN performance (mostly polished): https://www.overleaf.com/read/xctrqdqybckj
+Project: Evaluating hyperparameter optimisation techinques for an FNN and RNN, Aug 2020\\
+Main report: Comparing FNN and RNN performance (mostly polished): https://www.overleaf.com/read/xctrqdqybckj\\
 Secondary report: Comparing hyperparameter optimisations method (very unpolished): https://www.overleaf.com/read/hdmdcfkqyrpx
 Google drive for entire project: https://drive.google.com/drive/folders/14E8SYFzoncRtdEVwSguZaxXrR-hf7ufy?usp=sharing
 
