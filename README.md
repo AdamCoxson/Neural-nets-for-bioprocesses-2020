@@ -1,13 +1,13 @@
 # Neural-nets-for-bioprocesses-2020
  Code for FNNs and RNNs used during my internship
- FOR MAIN CODE SEE "Neural Network code (FNN and RNN)"
+ *FOR MY MAIN CODE SEE "Neural Network code (FNN and RNN)"* - The rest is developmental :P
 
 Author: Adam Coxson, MPhys Undergrad, The University of Manchester
 Email: adamcoxson1@gmail.com
-Project: Evaluating hyperparameter optimisation techinques for an FNN and RNN, Aug 2020\\
-Main report: Comparing FNN and RNN performance (mostly polished): https://www.overleaf.com/read/xctrqdqybckj\\
-Secondary report: Comparing hyperparameter optimisations method (very unpolished): https://www.overleaf.com/read/hdmdcfkqyrpx
-Google drive for entire project: https://drive.google.com/drive/folders/14E8SYFzoncRtdEVwSguZaxXrR-hf7ufy?usp=sharing
+Project: Evaluating hyperparameter optimisation techinques for an FNN and RNN, Aug 2020
+Main report: Comparing FNN and RNN performance (mostly polished): https://www.overleaf.com/read/xctrqdqybckj  
+Secondary report: Comparing hyperparameter optimisations method (very unpolished): https://www.overleaf.com/read/hdmdcfkqyrpx  
+Google drive for entire project: https://drive.google.com/drive/folders/14E8SYFzoncRtdEVwSguZaxXrR-hf7ufy?usp=sharing  
 
 This was for my SEI internship project into hyperparameter optimisation techniques
 and neural networks for bio-processes. My supervisor was Dr Dongda Zhang from the 
