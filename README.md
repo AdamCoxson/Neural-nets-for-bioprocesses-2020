@@ -1,5 +1,6 @@
 # Neural-nets-for-bioprocesses-2020
  Code for FNNs and RNNs used during my internship
+ FOR MAIN CODE SEE "Neural Network code (FNN and RNN)"
 
 Author: Adam Coxson, MPhys Undergrad, The University of Manchester
 Email: adamcoxson1@gmail.com
